@@ -150,8 +150,4 @@ if st.button("🔍 Rank All miRNAs", type="primary"):
                 use_container_width=True
             )
 
-    st.divider()
-    st.warning(
-        "⚠️ This model was trained on 206 samples. Rankings reflect learned "
-        "patterns but should be validated experimentally."
-    )
+ 
