@@ -15,7 +15,7 @@ st.set_page_config(
 # Load model bundle (cached so it only loads once)
 # ─────────────────────────────────────────────────────────────
 @st.cache_resource
-def load_bundle(path="Model206_conserved_model.pkl"):
+def load_bundle(path="top_up_down_conserved.pkl"):
     with open(path, "rb") as f:
         return pickle.load(f)
 
