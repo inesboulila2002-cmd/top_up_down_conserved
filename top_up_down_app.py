@@ -48,10 +48,10 @@ def build_input_row(family_name_val, parasite, organism, cell_type, time_val):
 # MAIN — Top miRNA Rankings ONLY
 # ════════════════════════════════════════════════════════════════════════════
 
-st.subheader("📊 Top miRNAs Predicted Up or Down Under Your Conditions")
+st.subheader("📊 Top miRNAs Predicted Up or Down")
 st.caption(
     "Enter your experimental conditions below. The model will score every "
-    "miRNA in the database and return the most confidently up- and "
+    "miRNA in the database and return the most confidently up and "
     "downregulated candidates."
 )
 
